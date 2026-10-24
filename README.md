@@ -1,6 +1,6 @@
 # YouTube Premium RU for Shadowrocket
 
-Модуль Shadowrocket для фильтрации рекламных запросов YouTube, PiP и фонового воспроизведения. Дополнительно принудительно задаёт региональный код США в выбранных запросах YouTube.
+Модуль Shadowrocket для фильтрации рекламных запросов YouTube, PiP и фонового воспроизведения.
 
 ## Установка
 
@@ -9,10 +9,6 @@
 `https://raw.githubusercontent.com/The-SnaaKe/youtube-premium-ru-shadowrocket/main/YT-Premium-V1-RU-Optimized.module`
 
 Для обработки HTTPS-запросов и ответов включите HTTPS-дешифровку Shadowrocket и установите/доверяйте его сертификату.
-
-## Регион США
-
-Модуль устанавливает `gl=US` в URL и `context.client.gl=US` в JSON-теле выбранных YouTube Innertube-запросов. Это задаёт приложению предпочтительный код контентного региона без переустановки YouTube. Для результата, зависящего от IP, нужен американский выходной узел прокси/VPN.
 
 ## Параметры
 
